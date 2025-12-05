@@ -7,12 +7,7 @@ optimizer = true
 optimizer_runs = 100000
 
 # pre push0 for maximum compatibility
-evm_version = "paris"
-
-remappings = [
-    "rain.factory/=lib/rain.factory/src/",
-    "rain.interpreter.interface/=lib/rain.interpreter.interface/src/",
-]
+evm_version = "cancun"
 
 bytecode_hash = "none"
 cbor_metadata = false
