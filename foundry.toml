@@ -1,4 +1,5 @@
 [profile.default]
+libs = ['dependencies']
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
 
@@ -11,3 +12,9 @@ evm_version = "cancun"
 
 bytecode_hash = "none"
 cbor_metadata = false
+
+[dependencies]
+forge-std = "1.16.1"
+
+[soldeer]
+recursive_deps = false
