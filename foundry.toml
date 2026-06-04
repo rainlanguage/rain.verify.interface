@@ -1,3 +1,7 @@
+[package]
+name = "rain-verify-interface"
+version = "0.1.0"
+
 [profile.default]
 libs = ['dependencies']
 
